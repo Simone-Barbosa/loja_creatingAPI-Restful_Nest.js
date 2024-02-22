@@ -18,7 +18,6 @@ export class UniqueEmailValidator implements ValidatorConstraintInterface {
     }
 }
 
-// não está funcionando, verificar posteriormente | Erro 500 "Internal server error"
 export const EmailIsUnique = (optionsOfValidation: ValidationOptions) => {
     return (obj: object, properties: string) => {
 

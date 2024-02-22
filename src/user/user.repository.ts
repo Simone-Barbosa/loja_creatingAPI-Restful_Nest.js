@@ -2,7 +2,7 @@
 
 import { Injectable } from "@nestjs/common";
 
-@Injectable()   // é um decorator que transforma a classe em um provider para o Nest
+@Injectable()
 export class UserRepository {
     private users = [];
 

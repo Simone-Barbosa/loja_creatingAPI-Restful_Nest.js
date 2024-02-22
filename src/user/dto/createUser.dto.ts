@@ -11,7 +11,6 @@ export class CreateUserDTO {
     name: string;
 
     @IsEmail(undefined, { message: 'O e-mail informado é inválido' })
-    // @EmailIsUnique({message: 'Já existe usuário com este email'})
     email: string;
 
     @MinLength(6, { message: 'A senha deve ser igual ou maior que 6 caracteres' })
